@@ -96,3 +96,19 @@ This script controls PDF24 Toolbox through GUI automation. Therefore, the screen
 If the program does not click the correct buttons, you may need to adjust the coordinate values in the script.
 
 The Argos English-to-Chinese offline translation model must be installed before running this program.
+## Argos Translation Model
+
+This project uses Argos Translate for offline translation.
+
+Before running the script, you must install the English-to-Chinese Argos translation model.
+
+Required translation direction:
+
+```text
+English -> Chinese
+```
+
+The Python package `argostranslate` can be installed with `requirements.txt`, but the language model must be installed separately.
+
+If the English-to-Chinese model is not installed, the script will stop and report that the Argos translation model cannot be found.
+
